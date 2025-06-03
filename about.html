@@ -55,11 +55,9 @@
         </div>
         <div class="col-md-3">
           <a href="index.html">
-            <span>Home ></span>
+            <span>Home <i class="fa fa-angle-double-right"></i></span>
           </a>
-          <a href="about.html">
-            <span>About</span>
-          </a>
+          <span>About</span>
         </div>
       </div>
     </div>
@@ -136,5 +134,16 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>

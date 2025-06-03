@@ -358,3 +358,25 @@
   color:white;
   box-shadow: 0px 3px 10px 5px rgba(18, 25, 33, 0.4);
 }
+.top-seller{
+  margin-top: -25px;
+    position: absolute;
+    margin-left: -70px;
+}
+.ht-300{
+  height:300px;
+}
+.box-shadow{
+  border-radius: 10px;
+  border-bottom:5px solid #004F9E;
+  box-shadow: 0px 3px 10px 5px rgba(18, 25, 33, 0.4);
+}
+.bg-strip{
+  background-color: #004F9E;
+  color: #fff;
+  border-radius:15px;
+  padding:5px 10px;
+}
+.border-right-dotted{
+  border-right-style:dotted;
+}
