@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,47 +22,56 @@
     />
   </head>
   <body>
-    <header>
-      <div class="topnav" id="myTopnav">
-        <a href="index.html" class="bg-logo">
-          <img src="assets/images/logo.png" />
+    <!-- This header section -->
+    <header class="header">
+      <div class="topnav px-5" id="myTopnav">
+        <a href="" class="bg-logo"><img src="assets/images/logo.png" /></a>
+        <a href="index.html"><i class="fa fa-home"></i>Home</a>
+        <a href="about.html"><i class="fa fa-user"></i>About Us</a>
+        <a href="exam-package.html" class="active"
+          ><i class="fa fa-file"></i>Exam Packages
         </a>
-        <a href="index.html"> <i class="fa fa-home"></i> Home</a>
-        <a href="about.html">About Us</a>
-        <a href="exam-package.html" class="active">Exam Packages </a>
-        <a href="live-exam.html">Live Exams </a>
-        <a href="services.html">Services</a>
-        <a href="blog.html">Blog</a>
-        <a href="login.html" class="member-login">Member Login</a>
-        <a href="" class="mobile-number">9090909090</a>
+        <a href="live-exam.html"><i class="fas fa-clipboard"></i>Live Exams </a>
+        <a href="services.html"><i class="fa fa-users"></i>Services</a>
+        <a href="blog.html"><i class="fa fa-rss"></i>Blog</a>
+        <a href="member-login.html" class="member-login"
+          ><i class="fa fa-user-circle"></i>Member Login</a
+        >
+        <a href="" class="mobile-number"
+          ><i class="fa fa-phone"></i>9090909090</a
+        >
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
     </header>
-<!-- This is navigation section -->
-    <div class="menu1 mt-3 py-3">
-      <div class="row">
-        <div class="col-md-7">
-          <h2>Test Packages</h2>
-        </div>
-        <div class="col-md-5">
-          <a href="index.html">
-            <span>Home <i class="fa fa-angle-double-right"></i></span>
-          </a>
-          <a href="exam-package.html">
-             <span>Exam Package <i class="fa fa-angle-double-right"></i></span>
-          </a>
-          <a href="test-category.html">
-            <span>Test-Category <i class="fa fa-angle-double-right"></i></span>
-          </a>
-          <a href="">
-            <span>Package-Details</span>
-          </a>
+
+    <!-- This is navigation section -->
+    <section class="menu1 py-2 mt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Test Package</h2>
+          </div>
+          <div class="col-md-6">
+            <a href="index.html">
+              <span>Home <i class="fa fa-angle-double-right"></i></span>
+            </a>
+            <a href="exam-package.html">
+              <span>Exam Package <i class="fa fa-angle-double-right"></i></span>
+            </a>
+            <a href="test-category.html">
+              <span
+                >Test Category <i class="fa fa-angle-double-right"></i
+              ></span>
+            </a>
+            <span>Test Package</span>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
+    <!-- This is Package discription section -->
     <section class="container mt-5">
       <div class="row">
         <div class="col-md-4 zoom-in">
@@ -92,9 +100,11 @@
 
             <h3 class="text-success">Free</h3>
             <div class="text-center">
-              <button class="btn apna-button">
-                <span><i class="fa fa-shopping-cart"></i> Buy Now </span>
-              </button>
+              <a href="member-login.html">
+                <button class="btn apna-button">
+                  <span><i class="fa fa-shopping-cart"></i> Buy Now </span>
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -102,37 +112,24 @@
           <div class="box-shadow p-3">
             <div class="text-center main-heading">
               <h2>
-                <span class="clr1"> <i class="fa fa-gift"></i>Package </span>
+                <span class="clr1">Package </span>
                 <span class="clr2"> Description</span>
               </h2>
               <span class="line"> </span>
             </div>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aperiam, magni nobis ipsa vel, cumque iste esse at ipsam
-                quibusdam aliquam neque! Itaque facere dolores earum tenetur!
-                Nemo eligendi velit harum hic quasi quia inventore placeat
-                dolorem blanditiis dolorum similique exercitationem cum sed
-                aperiam vel quam, deserunt, illum quas adipisci rem! Illum,
-                maiores, quaerat ducimus excepturi quisquam magni enim tenetur
-                odit eaque placeat quo temporibus. Totam culpa repellat odit
-                asperiores quos accusamus, laborum dolore quae nostrum quod
-                cupiditate adipisci voluptatum saepe beatae dolores delectus,
-                ipsam in atque nobis non aliquam, unde doloremque? Esse harum
-                hic, voluptates eaque iure numquam explicabo facere!
-              </p>
-              <div class="text-center">
+            <div class="text-center mt-3">
+              <a href="member-login.html">
                 <button class="btn apna-button">
                   <span><i class="fa fa-shopping-cart"></i> Buy Now </span>
                 </button>
-              </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- This is Package details section -->
     <section class="container mt-5">
       <div class="row">
         <div class="col-md-4 zoom-in mb-5">
@@ -248,6 +245,7 @@
       </div>
     </section>
 
+    <!-- This is footer section -->
     <footer class="text-center bg-footer py-2 mt-5">
       <div class="container">
         <div class="footer-links">
@@ -287,6 +285,7 @@
       </div>
     </footer>
 
+    <!-- This is script section -->
     <script>
       function myFunction() {
         var x = document.getElementById("myTopnav");

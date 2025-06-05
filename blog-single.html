@@ -27,13 +27,13 @@
       <div class="topnav px-5" id="myTopnav">
         <a href="" class="bg-logo"><img src="assets/images/logo.png" /></a>
         <a href="index.html"><i class="fa fa-home"></i>Home</a>
-        <a href="about.html"><i class="fa fa-user"></i>About Us</a>
-        <a href="exam-package.html" 
-          ><i class="fa fa-file"></i>Exam Packages
-        </a>
+        <a href="about.html" 
+          ><i class="fa fa-user"></i>About Us</a
+        >
+        <a href="exam-package.html"><i class="fa fa-file"></i>Exam Packages </a>
         <a href="live-exam.html"><i class="fas fa-clipboard"></i>Live Exams </a>
-        <a href="services.html" class="active"><i class="fa fa-users"></i>Services</a>
-        <a href="blog.html"><i class="fa fa-rss"></i>Blog</a>
+        <a href="services.html"><i class="fa fa-users"></i>Services</a>
+        <a href="blog.html" class="active"><i class="fa fa-rss"></i>Blog</a>
         <a href="member-login.html" class="member-login"
           ><i class="fa fa-user-circle"></i>Member Login</a
         >
@@ -46,60 +46,62 @@
       </div>
     </header>
 
-    <!-- This is navigation section -->
-   <section class="menu1 py-2 mt-3">
+    <!-- This navigation section -->
+    <section class="menu1 py-2 mt-3">
       <div class="container">
         <div class="row">
           <div class="col-md-8">
-            <h2>Services</h2>
+            <h2>Apna Exam</h2>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <a href="index.html">
               <span>Home <i class="fa fa-angle-double-right"></i></span>
             </a>
-            <a href="services.html">
-              <span>Service <i class="fa fa-angle-double-right"></i></span>
-            </a>
-            <span>Service Details</span>
+            <span>The Ultimate Guide</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- This is main section -->
-    <section class="container mt-5">
-      <div class="row mt-3">
+    <!-- This is blog-single main section -->
+    <section class="container my-5">
+      <div class="row">
         <div class="col-md-4">
-          <div class="service-grid p-2 text-center">
-            <img src="assets/Images/support1.jpg" />
-            <h4>Service 1</h4>
+          <div class="blog-card text-center p-2 zoom-in">
+            <img src="assets/images/blog-img1.jpeg" class="blog-image"/>
+            <h3>Blog 1</h3>
+            <div class="text-center">
+              <a href="blog-details.html">
+                <button class="btn apna-button">
+                  <span> More info </span>
+                </button>
+              </a>
+            </div>
           </div>
         </div>
-        <div class="col-md-8 zoom-in">
-          <div class="box-shadow p-3">
-            <div class="text-center main-heading">
-              <h2>
-                <span class="clr1">Service </span>
-                <span class="clr2"> Details </span>
-              </h2>
-              <span class="line"> </span>
+        <div class="col-md-4">
+          <div class="blog-card text-center p-2 zoom-in">
+            <img src="assets/images/blog-img2.jpg" class="blog-image" />
+            <h3>Blog 1</h3>
+            <div class="text-center">
+              <a href="">
+                <button class="btn apna-button">
+                  <span> More info </span>
+                </button>
+              </a>
             </div>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aperiam, magni nobis ipsa vel, cumque iste esse at ipsam
-                quibusdam aliquam neque! Itaque facere dolores earum tenetur!
-                Nemo eligendi velit harum hic quasi quia inventore placeat
-                dolorem blanditiis dolorum similique exercitationem cum sed
-                aperiam vel quam, deserunt, illum quas adipisci rem! Illum,
-                maiores, quaerat ducimus excepturi quisquam magni enim tenetur
-                odit eaque placeat quo temporibus. Totam culpa repellat odit
-                asperiores quos accusamus, laborum dolore quae nostrum quod
-                cupiditate adipisci voluptatum saepe beatae dolores delectus,
-                ipsam in atque nobis non aliquam, unde doloremque? Esse harum
-                hic, voluptates eaque iure numquam explicabo facere!
-              </p>
-              
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="blog-card text-center p-2 zoom-in">
+            <img src="assets/Images/blog-img1.jpeg" class="blog-image"/>
+            <h3>Blog 1</h3>
+            <div class="text-center">
+              <a href="">
+                <button class="btn apna-button">
+                  <span> More info </span>
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -107,7 +109,7 @@
     </section>
 
     <!-- This is footer section -->
-    <footer class="text-center bg-footer py-2 mt-5">
+    <footer class="text-center bg-footer py-2">
       <div class="container">
         <div class="footer-links">
           <a href=""> Home </a> | <a href=""> About Us </a> |
@@ -145,8 +147,8 @@
         </div>
       </div>
     </footer>
-    
-<!-- This is script section -->
+
+    <!-- This is script section -->
     <script>
       function myFunction() {
         var x = document.getElementById("myTopnav");

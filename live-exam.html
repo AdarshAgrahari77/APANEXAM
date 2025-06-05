@@ -22,19 +22,23 @@
     />
   </head>
   <body>
-    <header>
-      <div class="topnav" id="myTopnav">
-        <a href="index.html" class="bg-logo">
-          <img src="assets/images/logo.png" />
-        </a>
-        <a href="index.html"> <i class="fa fa-home"></i> Home</a>
-        <a href="about.html">About Us</a>
-        <a href="exam-package.html">Exam Packages </a>
-        <a href="live.html" class="active">Live Exams </a>
-        <a href="services.html">Services</a>
-        <a href="blog.html">Blog</a>
-        <a href="login.html" class="member-login">Member Login</a>
-        <a href="" class="mobile-number">9090909090</a>
+
+  <!-- This is header section  -->
+    <header class="header">
+      <div class="topnav px-5" id="myTopnav">
+        <a href="" class="bg-logo"><img src="assets/images/logo.png" /></a>
+        <a href="index.html"><i class="fa fa-home"></i>Home</a>
+        <a href="about.html"><i class="fa fa-user"></i>About Us</a>
+        <a href="exam-package.html"><i class="fa fa-file"></i>Exam Packages </a>
+        <a href="live-exam.html" class="active"><i class="fas fa-clipboard"></i>Live Exams </a>
+        <a href="services.html"><i class="fa fa-users"></i>Services</a>
+        <a href="blog.html"><i class="fa fa-rss"></i>Blog</a>
+        <a href="member-login.html" class="member-login"
+          ><i class="fa fa-user-circle"></i>Member Login</a
+        >
+        <a href="" class="mobile-number"
+          ><i class="fa fa-phone"></i>9090909090</a
+        >
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
@@ -42,24 +46,28 @@
     </header>
 
     <!-- This is navigation section -->
-    <div class="menu1 mt-3">
-      <div class="row">
-        <div class="col-md-9">
-          <h2>Live Exam </h2>
-        </div>
-        <div class="col-md-3">
-          <a href="index.html">
-            <span>Home <i class="fa fa-angle-double-right"></i></span>
-          </a>
-          <span>Live-exam</span>
+    <section class="menu1 py-2 mt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h2>Live Exam</h2>
+          </div>
+          <div class="col-md-3">
+            <a href="index.html">
+              <span>Home <i class="fa fa-angle-double-right"></i></span>
+            </a>
+            <span>Live Exam</span>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
+<!-- This is live exam main section -->
     <section class="text-center ht-300">
       <h2 class="text-danger">No records found</h2>
     </section>
 
+<!-- This is Footer section -->
     <footer class="text-center bg-footer py-2 mt-5">
       <div class="container">
         <div class="footer-links">
@@ -99,6 +107,7 @@
       </div>
     </footer>
 
+<!-- This is script section -->
     <script>
       function myFunction() {
         var x = document.getElementById("myTopnav");
